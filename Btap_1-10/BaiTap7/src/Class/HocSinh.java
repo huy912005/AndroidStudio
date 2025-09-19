@@ -22,13 +22,14 @@ public class HocSinh extends Nguoi{
 
     public HocSinh() {
     }
-    
-    public HocSinh(String lop, String khoaHoc, String kyHoc, String hoTen314, Date ngaySinh314, String queQuan314) {
+
+    public HocSinh(String lop314, String khoaHoc314, String kyHoc314, String hoTen314, Date ngaySinh314, String queQuan314) {
         super(hoTen314, ngaySinh314, queQuan314);
-        this.lop314 = lop;
-        this.khoaHoc314 = khoaHoc;
-        this.kyHoc314 = kyHoc;
+        this.lop314 = lop314;
+        this.khoaHoc314 = khoaHoc314;
+        this.kyHoc314 = kyHoc314;
     }
+    
     public void nhapThongTin(Scanner sc) {
         super.nhapThongTin(sc);
         System.out.print("Nhap lop: ");

@@ -12,13 +12,13 @@ import java.util.Scanner;
  * @author ADMIN
  */
 public class QuanLySach {
-    private ArrayList<TaiLieu> qls;
+    private ArrayList<TaiLieu> qls314;
 
     public QuanLySach() {
-        qls = new ArrayList<>();
+        qls314 = new ArrayList<>();
     }
     public void themThongTin(TaiLieu tl){
-        qls.add(tl);
+        qls314.add(tl);
     }
     public void nhapThongTin(Scanner sc){
         TaiLieu tl = new TaiLieu();
@@ -50,7 +50,7 @@ public class QuanLySach {
     }
     public void timKiem(String maTaiLieu){
         int dem=0;
-        for(TaiLieu tl : qls){
+        for(TaiLieu tl : qls314){
             if(maTaiLieu.equals(tl.maTaiLieu314))
                 tl.hienThiThongTin();
             else

@@ -12,13 +12,13 @@ import java.util.Scanner;
  * @author ADMIN
  */
 public class QLCB {
-    private ArrayList<CanBo> dscb;
+    private ArrayList<CanBo> dscb314;
 
     public QLCB() {
-        dscb= new ArrayList<>();
+        dscb314= new ArrayList<>();
     }
     public void themCanBo(CanBo cb){
-        dscb.add(cb);
+        dscb314.add(cb);
     }
     public void nhapDanhSach(Scanner sc){
         CanBo cb ;
@@ -51,7 +51,7 @@ public class QLCB {
         }
     }
     public void timKiemCanBo(String hoten){
-        for(CanBo cb : dscb){
+        for(CanBo cb : dscb314){
             if(hoten.equals(cb.getHoTen314()))
             {
                 cb.hienThiThongTin();
@@ -59,7 +59,7 @@ public class QLCB {
         }
     }
     public void hienThiDscb(){
-        for(CanBo cb : dscb){
+        for(CanBo cb : dscb314){
             System.out.println("-------------------------");
             cb.hienThiThongTin();
         }

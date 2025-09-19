@@ -36,9 +36,9 @@ public class Main {
             switch (lc) {
                 case 1:
                     System.out.println("Xin moi nhap vao phan so thu nhat : ");
-                    ps1.NhapPS();
+                    ps1.NhapPS(sc);
                     System.out.println("Xin moi nhap vao phan so thu hai : ");
-                    ps2.NhapPS();
+                    ps2.NhapPS(sc);
                     break;
                 case 2:
                     System.out.println("-------------------------------");
@@ -47,6 +47,7 @@ public class Main {
                     System.out.println("\t 3.Ca hai phan so");
                     System.out.println("-------------------------------");
                     System.out.println("Xin moi ban lua chon : ");
+                    lc=sc.nextInt();
                     switch (lc) {
                         case 1:
                             if(ps1.getMauSo()==0)
@@ -155,5 +156,4 @@ public class Main {
     public static void main(String[] args) {
         Menu();
     }
-    
 }

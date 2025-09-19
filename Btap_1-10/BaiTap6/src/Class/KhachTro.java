@@ -12,43 +12,43 @@ import java.util.Scanner;
  * @author ADMIN
  */
 public class KhachTro extends Nguoi{
-     private int soNgayTro;
-    private String loaiTro;
-    private double giaTro;
+     private int soNgayTro314;
+    private String loaiTro314;
+    private double giaTro314;
 
     public int getSoNgayTro() {
-        return soNgayTro;
+        return soNgayTro314;
     }
 
     public double getGiaTro() {
-        return giaTro;
+        return giaTro314;
     }
     
     public KhachTro() {
     }
 
-    public KhachTro(int soNgayTro, String loaiTro, double giaTro, String hoTen, Date ngaySinh, String soCM) {
+    public KhachTro(int soNgayTro314, String loaiTro314, double giaTro314, String hoTen, Date ngaySinh, String soCM) {
         super(hoTen, ngaySinh, soCM);
-        this.soNgayTro = soNgayTro;
-        this.loaiTro = loaiTro;
-        this.giaTro = giaTro;
+        this.soNgayTro314 = soNgayTro314;
+        this.loaiTro314 = loaiTro314;
+        this.giaTro314 = giaTro314;
     }
     
     public void nhapThongTin(Scanner sc){
         super.nhapThongTin(sc);
         System.out.println("Nhap so ngay tro : ");
-        soNgayTro = sc.nextInt();
+        soNgayTro314 = sc.nextInt();
         sc.nextLine();
         System.out.println("Nhap loai tro : ");
-        loaiTro=sc.nextLine();
+        loaiTro314=sc.nextLine();
         System.out.println("Nhap gia tro : ");
-        giaTro= sc.nextDouble();
+        giaTro314= sc.nextDouble();
     }
     
     public void hienThiThongTin(){
         super.hienThiThongTin();
-        System.out.println("So ngay tro : "+soNgayTro);
-        System.out.println("Loai tro : "+loaiTro);
-        System.out.println("Gia tro : "+giaTro);
+        System.out.println("So ngay tro : "+soNgayTro314);
+        System.out.println("Loai tro : "+loaiTro314);
+        System.out.println("Gia tro : "+giaTro314);
     }
 }
