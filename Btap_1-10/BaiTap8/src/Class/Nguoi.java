@@ -21,10 +21,10 @@ public class Nguoi {
     public Nguoi() {
     }
 
-    public Nguoi(String hoTen, Date ngaySinh, String queQuan) {
-        this.hoTen314 = hoTen;
-        this.ngaySinh314 = ngaySinh;
-        this.queQuan314 = queQuan;
+    public Nguoi(String hoTen314, Date ngaySinh314, String queQuan314) {
+        this.hoTen314 = hoTen314;
+        this.ngaySinh314 = ngaySinh314;
+        this.queQuan314 = queQuan314;
     }
     
     public void nhapThongTin(Scanner sc){

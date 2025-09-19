@@ -26,12 +26,12 @@ public class TheMuon extends SinhVien{
     public TheMuon() {
     }
 
-    public TheMuon(String soPhieuMuon, Date ngayMuon, Date hanTra, String soHieuSach, String hoTen, String maSV, Date ngaySinh, String lop) {
-        super(hoTen, maSV, ngaySinh, lop);
-        this.soPhieuMuon314 = soPhieuMuon;
-        this.ngayMuon314 = ngayMuon;
-        this.hanTra314 = hanTra;
-        this.soHieuSach314 = soHieuSach;
+    public TheMuon(String soPhieuMuon314, Date ngayMuon314, Date hanTra314, String soHieuSach314, String hoTen314, String maSV314, Date ngaySinh314, String lop314) {
+        super(hoTen314, maSV314, ngaySinh314, lop314);
+        this.soPhieuMuon314 = soPhieuMuon314;
+        this.ngayMuon314 = ngayMuon314;
+        this.hanTra314 = hanTra314;
+        this.soHieuSach314 = soHieuSach314;
     }
     
     public void nhapThongTin(Scanner sc){

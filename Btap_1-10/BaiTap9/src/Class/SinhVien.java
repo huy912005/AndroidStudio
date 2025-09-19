@@ -22,11 +22,11 @@ public class SinhVien {
     public SinhVien() {
     }
 
-    public SinhVien(String hoTen, String maSV, Date ngaySinh, String lop) {
-        this.hoTen314 = hoTen;
-        this.maSV314 = maSV;
-        this.ngaySinh314 = ngaySinh;
-        this.lop314 = lop;
+    public SinhVien(String hoTen314, String maSV314, Date ngaySinh314, String lop314) {
+        this.hoTen314 = hoTen314;
+        this.maSV314 = maSV314;
+        this.ngaySinh314 = ngaySinh314;
+        this.lop314 = lop314;
     }
     
     public void nhapThongTin(Scanner sc){

@@ -13,14 +13,14 @@ import java.util.Scanner;
  */
 public class QuanLy {
 
-    private ArrayList<TheMuon> ds;
+    private ArrayList<TheMuon> ds314;
 
     public QuanLy() {
-        ds = new ArrayList<>();
+        ds314 = new ArrayList<>();
     }
 
     public void themTheMuon(TheMuon tm) {
-        ds.add(tm);
+        ds314.add(tm);
     }
 
     public void nhapThongTin(Scanner sc) {
@@ -37,7 +37,7 @@ public class QuanLy {
 
     public void hienThiThongTin() {
         int i =1;
-        for (TheMuon tm : ds) {
+        for (TheMuon tm : ds314) {
             System.out.printf("---------- thu %d -----------\n", i);
             tm.hienThiThongTin();
             i++;
@@ -48,7 +48,7 @@ public class QuanLy {
 
     public void danhSachTraCuoiThang(){
         int i =1;
-        for (TheMuon tm : ds) {
+        for (TheMuon tm : ds314) {
             if (tm.getHanTra314().getDate() == 30 || tm.getHanTra314().getDate() == 31) {
                 System.out.printf("---------- the muon %d -----------\n", i);
                 tm.hienThiThongTin();
