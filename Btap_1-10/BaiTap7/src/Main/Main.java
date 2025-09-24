@@ -15,15 +15,15 @@ public class Main {
 
     public static void menu() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("===== MENU QUAN LY HOC SINH =====");
-        System.out.println("1. Nhap danh sach hoc sinh");
-        System.out.println("2. Hien thi hoc sinh sinh nam 1985 va que Thai Nguyen");
-        System.out.println("3. Hien thi hoc sinh lop 10A1");
-        System.out.println("0. Thoat");
-        System.out.print("Moi ban chon: ");
         HSHocSinh hs = new HSHocSinh();
         int chon;
         do {
+            System.out.println("===== MENU QUAN LY HOC SINH =====");
+            System.out.println("1. Nhap danh sach hoc sinh");
+            System.out.println("2. Hien thi hoc sinh sinh nam 1985 va que Thai Nguyen");
+            System.out.println("3. Hien thi hoc sinh lop 10A1");
+            System.out.println("0. Thoat");
+            System.out.print("Moi ban chon: ");
             chon = sc.nextInt();
             sc.nextLine(); 
             switch (chon) {

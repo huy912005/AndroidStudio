@@ -1,35 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class ThiSinh {
     protected int soBaoDanh314;
     protected String hoTen314;
     protected String diaChi314;
     protected String uuTien314;
-
     public int getSoBaoDanh() {
         return soBaoDanh314;
     }
-    
     public ThiSinh() {
     }
-
     public ThiSinh(int soBaoDanh314, String hoTen314, String diaChi314, String uuTien314) {
         this.soBaoDanh314 = soBaoDanh314;
         this.hoTen314 = hoTen314;
         this.diaChi314 = diaChi314;
         this.uuTien314 = uuTien314;
     }
-    
     public void nhapThongTin(Scanner sc){
         System.out.println("Nhap so bao danh : ");
         soBaoDanh314 = sc.nextInt();

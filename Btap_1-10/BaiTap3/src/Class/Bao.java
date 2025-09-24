@@ -21,7 +21,6 @@ public class Bao extends TaiLieu{
         this.ngayPhatHanh314 = ngayPhatHanh314;
     }
     
-    @Override
     public void nhapThongTin(Scanner sc){
         super.nhapThongTin(sc);
         System.out.print("Nhap ngay phat hanh dd/MM/yyyy : ");

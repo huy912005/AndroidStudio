@@ -1,19 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
 import java.util.ArrayList;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class QuanLySach {
     private ArrayList<TaiLieu> qls314;
-
     public QuanLySach() {
         qls314 = new ArrayList<>();
     }
@@ -56,7 +45,7 @@ public class QuanLySach {
             else
                 dem++;
         }
-        if(dem==0)
+        if(dem!=0)
             System.out.println("Khong tim thay thong tin!");
     }
 }

@@ -28,9 +28,11 @@ public class KhachSan {
         int n = sc.nextInt();
         sc.nextLine();
         for (int i = 1; i <= n; i++) {
+            System.out.println("--------------------------------");
             KhachTro kt = new KhachTro();
             kt.nhapThongTin(sc);
             themKhachTro(kt);
+            sc.nextLine();
         }
     }
 

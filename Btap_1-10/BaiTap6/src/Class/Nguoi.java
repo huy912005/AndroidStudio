@@ -1,30 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class Nguoi {
     protected String hoTen314;
     protected Date ngaySinh314;
     protected String soCM314;
-
     public String getSoCM() {
         return soCM314;
     }
-
-    public Nguoi() {
-    }
-
+    public Nguoi() {}
     public Nguoi(String hoTen, Date ngaySinh, String soCM) {
         this.hoTen314 = hoTen;
         this.ngaySinh314 = ngaySinh;
@@ -44,8 +29,9 @@ public class Nguoi {
         soCM314 = sc.nextLine();
     }
     public void hienThiThongTin(){
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         System.out.println("Ho ten : "+hoTen314);
-        System.out.println("Ngay sinh : "+ngaySinh314);
+        System.out.println("Ngay sinh : "+sdf.format(ngaySinh314));
         System.out.println("So chung minh : "+soCM314);
     }
 }

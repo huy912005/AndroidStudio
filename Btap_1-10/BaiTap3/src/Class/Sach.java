@@ -5,11 +5,6 @@
 package Class;
 
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class Sach extends TaiLieu{
     private String tenTacGia314;
     private int soTrang314;

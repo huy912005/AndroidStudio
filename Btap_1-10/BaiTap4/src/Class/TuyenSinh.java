@@ -1,35 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
 import java.util.ArrayList;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class TuyenSinh {
-
     private ArrayList<ThiSinh> dsts;
-
     public TuyenSinh() {
         dsts = new ArrayList<>();
     }
-
     public void themThiSinh(ThiSinh ts) {
         dsts.add(ts);
     }
-
     public void nhapDanhSach(Scanner sc) {
         ThiSinh ts;
         int chon;
         System.out.print("Nhap vao so luong thi sinh: ");
         int n = sc.nextInt();
         sc.nextLine();
-
         for (int i = 0; i < n; i++) {
             System.out.println("------ Chon khoi thi ------");
             System.out.println("\t1. Khoi A");
@@ -38,7 +23,6 @@ public class TuyenSinh {
             System.out.println("---------------------------");
             System.out.print("Moi ban chon: ");
             chon = sc.nextInt();
-
             switch (chon) {
                 case 1:
                     ts = new KhoiA();
@@ -57,7 +41,6 @@ public class TuyenSinh {
             themThiSinh(ts);
         }
     }
-
     public void hienThiDanhSach() {
         int i=1;
         for(ThiSinh ts : dsts){
@@ -68,7 +51,6 @@ public class TuyenSinh {
         if(i==1)
             System.out.println("Danh sach rong!");
     }
-
     public void timKiemThiSinh(int soBaoDanh) {
         for (ThiSinh ts : dsts) {
             if (ts.getSoBaoDanh()== soBaoDanh) {
