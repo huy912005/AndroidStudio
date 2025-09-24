@@ -1,16 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package Main;
 
 import Class.QuanLy;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class Main {
     private static void menu() {
         Scanner sc = new Scanner(System.in);
@@ -27,23 +18,18 @@ public class Main {
             sc.nextLine();
             switch (chon) {
                 case 1 : 
-                    ql.nhapThongTin(sc);
-                    break;
+                    ql.nhapThongTin(sc);break;
                 case 2 : 
-                    ql.hienThiThongTin();
-                    break;
+                    ql.hienThiThongTin();break;
                 case 3 : 
-                    ql.danhSachTraCuoiThang();
-                    break;
+                    ql.danhSachTraCuoiThang();break;
                 case 0 : 
-                    System.out.println("Thoat chuong trinh.");
-                    break;
+                    System.out.println("Thoat chuong trinh.");break;
                 default: 
                     System.out.println("Lua chon khong hop le!");
             }
         } while (chon != 0);
     }
-
     public static void main(String[] args) {
         menu();
     }

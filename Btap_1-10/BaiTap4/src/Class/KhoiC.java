@@ -5,11 +5,6 @@
 package Class;
 
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class KhoiC extends ThiSinh {
     private String van314;
     private String su314;
@@ -17,14 +12,12 @@ public class KhoiC extends ThiSinh {
 
     public KhoiC() {
     }
-    
     public KhoiC(String van314, String su314, String dia314, int soBaoDanh314, String hoTen314, String diaChi314, String uuTien314) {
         super(soBaoDanh314, hoTen314, diaChi314, uuTien314);
         this.van314 = van314;
         this.su314 = su314;
         this.dia314 = dia314;
     }
-    
     public void nhapThongTin(Scanner sc) {
         super.nhapThongTin(sc);
         System.out.print("Nhap diem Van: ");
@@ -34,7 +27,6 @@ public class KhoiC extends ThiSinh {
         System.out.print("Nhap diem Dia: ");
         dia314 = sc.nextLine();
     }
-    
     public void hienThiThongTin() {
         super.hienThiThongTin();
         System.out.println("Van : " + this.van314);

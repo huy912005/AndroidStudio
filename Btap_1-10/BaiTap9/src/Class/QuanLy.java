@@ -32,6 +32,7 @@ public class QuanLy {
             System.out.printf("---------- the muon %d -----------\n", i);
             tm.nhapThongTin(sc);
             themTheMuon(tm);
+            sc.nextLine();
         }
     }
 

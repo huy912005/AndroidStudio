@@ -1,18 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package Main;
 
 import Class.QuanLy;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class Main {
-
     private static void menu() {
         Scanner sc = new Scanner(System.in);
         QuanLy ql = new QuanLy();
@@ -40,9 +30,7 @@ public class Main {
             }
         } while (chon != 0);
     }
-
     public static void main(String[] args) {
         menu();
     }
-
 }

@@ -1,32 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class Nguoi {
     protected String hoTen314;
     protected Date ngaySinh314;
     protected String queQuan314;
-
     public Nguoi() {
     }
-
     public Nguoi(String hoTen314, Date ngaySinh314, String queQuan314) {
         this.hoTen314 = hoTen314;
         this.ngaySinh314 = ngaySinh314;
         this.queQuan314 = queQuan314;
     }
-    
     public void nhapThongTin(Scanner sc){
         System.out.println("Nhap ho ten : ");
         hoTen314=sc.nextLine();
@@ -39,7 +26,6 @@ public class Nguoi {
         System.out.println("Nhap que quan : ");
         queQuan314=sc.nextLine();
     }
-    
     public void hienThiThongTin(){
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         System.out.println("HO ten : "+hoTen314);

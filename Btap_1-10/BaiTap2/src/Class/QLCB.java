@@ -1,16 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
 import java.util.ArrayList;
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class QLCB {
     private ArrayList<CanBo> dscb314;
 
@@ -25,7 +15,7 @@ public class QLCB {
         System.out.println("Nhap so luong can bo : ");
         int sl = sc.nextInt();
         for(int i = 0;i<sl;i++){
-            System.out.println("Nhap can bo thu : "+i+1);
+            System.out.println("Nhap can bo thu : "+(i+1));
             System.out.println("----------Nhap-----------");
             System.out.println("\t1.Nhan vien");
             System.out.println("\t2.Ky su");
