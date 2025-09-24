@@ -1,15 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Class;
-
 import java.util.Scanner;
-
-/**
- *
- * @author ADMIN
- */
 public class TaiLieu {
     protected String maTaiLieu314;
     protected String tenNhaSX314;

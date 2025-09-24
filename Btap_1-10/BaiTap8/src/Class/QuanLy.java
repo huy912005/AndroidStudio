@@ -31,6 +31,7 @@ public class QuanLy {
             cbgv=new CBGV();
             cbgv.nhapThongTin(sc);
             themCBGV(cbgv);
+            sc.nextLine();
         }
     }
     

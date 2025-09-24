@@ -9,10 +9,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author ADMIN
- */
 public class Nguoi {
      private String hoTen314;
     private Date ngaySinh314;
