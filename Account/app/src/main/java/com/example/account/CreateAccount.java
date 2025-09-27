@@ -16,6 +16,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class CreateAccount extends AppCompatActivity {
+    private TextView txtLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,16 @@ public class CreateAccount extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+        txtLogin=findViewById(R.id.txtv_fogot);
+        String text = "Have account? Log in";
+        SpannableString sAS= new SpannableString(text);
+        sAS.setSpan(new StyleSpan(Typeface.BOLD),13,text.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sAS.setSpan(new UnderlineSpan(),13,text.length(),Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        txtLogin.setText(sAS);
+        txtLogin.setOnClickListener(v -> {
+            Intent intent = new Intent(CreateAccount.this, MainActivity.class);
+            startActivity(intent);
         });
     }
 }
