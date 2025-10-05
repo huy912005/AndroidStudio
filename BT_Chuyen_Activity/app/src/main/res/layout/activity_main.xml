@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/edtUserName"
         android:layout_width="304dp"
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
@@ -46,13 +46,28 @@
         android:fontFamily="serif"
         android:hint="Nhập password"
         android:inputType="textPassword"
+        android:paddingRight="50dp"
         android:paddingLeft="15dp"
         android:textColor="#14B4DB"
         android:textColorHint="#14B4DB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
+
+    <ImageView
+        android:id="@+id/imgVisible"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="Hiện/Ẩn mật khẩu"
+        android:src="@drawable/outline_disabled_visible_24"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.583" />
 
     <Button
         android:id="@+id/btnClick"
