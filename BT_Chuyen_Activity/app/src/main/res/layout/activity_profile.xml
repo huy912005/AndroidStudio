@@ -46,6 +46,7 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/txtView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -79,10 +80,11 @@
                 tools:layout_editor_absoluteX="110dp"
                 tools:layout_editor_absoluteY="157dp" />
             <TextView
+                android:id="@+id/profileUserName"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:text="Profile Name"
-                android:textSize="30dp"
+                android:textSize="35dp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:fontFamily="serif"/>
@@ -168,6 +170,7 @@
                 tools:layout_editor_absoluteY="16dp">
 
                 <TextView
+                    android:id="@+id/txtViewId"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:gravity="center_vertical"
@@ -185,10 +188,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
+                    android:fontFamily="serif"
                     android:gravity="center_vertical"
                     android:padding="8dp"
-                    android:text="Phone : +99 999 555 222"
-                    android:fontFamily="serif"
+                    android:text="Phone : 0365994105"
                     android:textColor="@android:color/holo_blue_dark"
                     android:textSize="20sp" />
 
@@ -200,10 +203,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
+                    android:fontFamily="serif"
                     android:gravity="center_vertical"
                     android:padding="8dp"
                     android:text="Skype : me007"
-                    android:fontFamily="serif"
                     android:textColor="@android:color/holo_blue_dark"
                     android:textSize="20sp" />
 
