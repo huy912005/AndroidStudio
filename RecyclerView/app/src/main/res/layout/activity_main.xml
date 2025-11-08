@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/toolbarLayout"
+        android:id="@+id/toolbarLayout314"
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:orientation="horizontal"
@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <ImageButton
-            android:id="@+id/btnBack"
+            android:id="@+id/btnBack314"
             android:layout_width="36dp"
             android:layout_height="30dp"
             android:background="?attr/selectableItemBackgroundBorderless"
@@ -32,7 +32,7 @@
             app:tint="#E53935" />
 
         <TextView
-            android:id="@+id/tvTitle"
+            android:id="@+id/tvTitle314"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -44,7 +44,7 @@
             android:textColor="@android:color/black" />
 
         <TextView
-            android:id="@+id/tvSua"
+            android:id="@+id/tvSua314"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sửa"
@@ -67,12 +67,12 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/recycler_view314"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:padding="8dp"
         android:clipToPadding="false"
-        app:layout_constraintTop_toBottomOf="@id/toolbarLayout"
+        app:layout_constraintTop_toBottomOf="@id/toolbarLayout314"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

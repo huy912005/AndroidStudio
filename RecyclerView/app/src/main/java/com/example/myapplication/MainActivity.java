@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements SelectListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        recyclerView = findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_view314);
 
         // Chuẩn bị dữ liệu
         dataList = prepareData();
