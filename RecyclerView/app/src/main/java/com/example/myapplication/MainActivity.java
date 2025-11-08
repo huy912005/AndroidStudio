@@ -48,12 +48,7 @@ public class MainActivity extends AppCompatActivity implements SelectListener {
 
     @Override
     public void onItemClicked(MyModel model) {
-        Toast.makeText(this,
-                "Bạn đã chọn: " + model.getTenSanPham()
-                        + "\nGiá khuyến mãi: ₫" + (int) model.getGiaKhuyenMai()
-                        + "\nSố lượng: " + model.getSoLuong()
-                        + "\nTổng: ₫" + (int) model.getTongTien(),
-                Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Bạn đã chọn: " + model.getTenSanPham(), Toast.LENGTH_LONG).show();
     }
 
 }
